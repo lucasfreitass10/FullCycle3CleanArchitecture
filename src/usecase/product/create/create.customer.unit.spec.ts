@@ -1,9 +1,7 @@
-import { v4 as uuid } from "uuid";
 import CreateProductUseCase from "./create.customer.usecase";
 import { InputCreateProductDto } from "./create.product.dto";
 
 const input : InputCreateProductDto = {
-  id : uuid(),
   name: "Product A",
   price: 10
 };
